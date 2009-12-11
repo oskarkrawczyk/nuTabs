@@ -10,15 +10,9 @@ How to use
 
 ### JavaScript	
 	
-   $$('#tabs-nav a, #tabs-body li').tabify({
-     transition: 'bounce:out'
-   });
-    
-or
-    
-   new nuTabs($$('#tabs-nav a'), $$('#tabs-body li'), {
-     transition: 'bounce:out'
-   });
+   $$('#tabs-nav a, #tabs-body li').tabify({transition: 'bounce:out'});
+   
+   new nuTabs($$('#tabs-nav a'), $$('#tabs-body li'), {transition: 'bounce:out'});
 	
 ### HTML
 
