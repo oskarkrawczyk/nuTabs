@@ -86,7 +86,7 @@ var nuTabs = new Class({
 Elements.implement({
     tabify: function(options){
         this.tabNav = this.slice(0, this.length/2);
-        this.tabBody = this.slice(3, this.length);
+        this.tabBody = this.slice(this.length/2, this.length);
         new nuTabs($$(this.tabNav), $$(this.tabBody), $pick(options, {}));
     }
 });
